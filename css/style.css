@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+header{
+    height: 100px;
+    background-color: lightcyan;
+}
+
+.center-head{
+    padding: 2%;
+}
+
+.col-2 img{
+    background-color: white;
+}
+
+.yellow-txt{
+    color: rgba(255,143,0,255);
+}
+
+.end-flex{
+    display: flex;
+    justify-content: end;
+}
+
+main{
+ height: calc( 100vh - 100px );
+ display: flex;
+}
+
+.side-bar{
+    width: 100px;
+    height: 100%;
+    background-color: rgba(5,30,52,255);
+}
+
+.mainpage{
+    width: calc( 100% - 100px );
+    height: 100%;
+    background-color: brown;
+}
