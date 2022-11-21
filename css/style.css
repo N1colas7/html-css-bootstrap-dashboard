@@ -43,7 +43,7 @@ main{
 
 .side-bar .container{
     height: 100%;
-    padding: 10px 10px;
+    padding: 10px 5px;
 }
 
 .side-row{
@@ -51,11 +51,11 @@ main{
     justify-content: space-between;
 }
 
-.side-col{
-    width: 100%;
+.list-side li{
+    padding-top: 10px;
 }
 
-.col-6 ul{
+.col-12 ul{
     list-style: none;
 }
 
