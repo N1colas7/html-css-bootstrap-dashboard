@@ -7,7 +7,7 @@
 header{
     height: 100px;
     background-color: lightcyan;
-    
+
 }
 
 .center-head{
@@ -32,19 +32,18 @@ header{
 }
 
 main{
- height: calc( 100vh - 100px );
+ height: 100%;
  display: flex;
 }
 
 .side-bar{
     width: 130px;
-    height: 100%;
     background-color: rgba(5,30,52,255);
 }
 
 .side-bar .container{
     height: 100%;
-    padding: 10px 5px;
+    padding: 10px 0px;
 }
 
 .side-row{
@@ -63,13 +62,14 @@ main{
 .little-header{
     background-color: rgba(27,114,232,255);
     padding-left: 10px;
+    color: white;
 }
 
 .mainpage{
     width: calc( 100% - 130px );
     height: 100%;
     background-color: brown;
-    color: white;
+    
 }
 
 .fake-button{
@@ -82,4 +82,40 @@ main{
     border: 1px solid white;
     padding: 5%;
     border-radius: 6px;
+}
+
+.contain-main-1{
+    width: 60%;
+}
+
+.contain-main-2{
+    width: 38%;
+    padding-left: 1%;
+}
+
+.orange{
+    background-color: rgba(242,101,81,255);
+    padding: 3%;
+    border-radius: 50px;
+}
+
+.done{
+    background-color: rgba(25,135,84,255);
+    color: white;
+    padding: 2%;
+    border-radius: 15%;
+}
+
+.process{
+    background-color: rgba(255,193,7,255);
+    color: white;
+    padding: 2%;
+    border-radius: 15%;
+}
+
+.failed{
+    background-color: rgba(220,53,69,255);
+    color: white;
+    padding: 2%;
+    border-radius: 15%;
 }
